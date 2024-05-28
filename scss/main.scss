@@ -6,9 +6,13 @@
 //MIXINS
 @import './utilities/mixins';
 
+//VARIABLES
+@import './utilities/variables';
+
 //Componentes
 @import './sections/footer';
 
 //Pages
 @import './sections/inicio';
+@import './sections/contacto';
 

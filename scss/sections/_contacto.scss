@@ -1,0 +1,58 @@
+.bg-contacto{
+
+    background-color: #202020;
+
+}
+
+.main-bg-contacto{
+    background-image: url('https://www.byd.com/content/dam/byd-site/uy/test-drive/byd-song-pc.jpg');
+    background-size: cover;
+    height: 600px;
+.cont-form{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: solid 1px;
+        height: 600px;
+
+        .top-form{
+            display: flex;
+            background-color: #202020;
+            justify-content: center;
+            width: 100%;
+            h1{
+                color: white;
+                text-align: center;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        }
+
+        .bot-form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .form-nomap{
+                display: flex;
+                margin: 5px;
+
+                input{
+                    margin: 2px;
+                }
+            }
+
+            input{
+                margin: 2px;
+            }
+        }
+    }
+}
+}
