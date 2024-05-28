@@ -1,0 +1,106 @@
+footer{
+    background-color: rgb(16, 16, 16);
+    padding: 40px;
+
+    .first-row-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 850px;
+        margin: auto;
+        padding: 10px;
+        border-bottom: solid 1px #fff;
+
+        .logo-footer{
+            width: 90px;
+        }
+
+        .cont-redes{
+            img{
+                width: 20px;
+            }
+        }
+
+    }
+
+    .two-row-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 850px;
+        margin: auto;
+        padding: 10px;
+        border-bottom: solid 1px #fff;
+
+        .cont-footer-1{
+            width: 170px;
+            p{
+                margin: 0;
+                font-size: 8px;
+                color: white;
+            }
+        }
+        .cont-footer-2{
+            width: 190px;
+            p{
+                margin: 0;
+                font-size: 8px;
+                color: white;
+            }
+        }
+        .cont-footer-3{
+            width: 170px;
+            p{
+                margin: 0;
+                font-size: 8px;
+                color: white;
+            }
+        }
+        .cont-footer-4{
+            width: 170px;
+            p{
+                margin: 0;
+                font-size: 8px;
+                color: white;
+            }
+        }
+
+        .cont-links-pag{
+
+            ul{
+                list-style: none;
+                margin: 0;
+            }
+
+            li{
+                margin: -10px;
+                padding: 0;
+            }
+            a{
+                font-size: 8px;
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .last-row-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 850px;
+        margin: auto;
+        margin-top: 10px;
+
+        p{
+            
+            font-size: 8px;
+            color: white;
+            margin: 0;
+            text-align: center;
+        }
+    }
+}
