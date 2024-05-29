@@ -8,6 +8,8 @@
     background-image: url('https://www.byd.com/content/dam/byd-site/uy/test-drive/byd-song-pc.jpg');
     background-size: cover;
     height: 600px;
+
+
 .cont-form{
     display: flex;
     align-items: center;
@@ -18,14 +20,20 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border: solid 1px;
-        height: 600px;
+        border-radius: 9px;
+        margin-top: 2rem;
+        margin-left: 12rem;
+        backdrop-filter:blur(17px) contrast(58%);
+        
 
         .top-form{
             display: flex;
-            background-color: #202020;
+            background-color: #000000a0;
             justify-content: center;
             width: 100%;
+            padding: 20px;
+            border-top-left-radius: 9px;
+            border-top-right-radius: 9px;
             h1{
                 color: white;
                 text-align: center;
@@ -39,18 +47,145 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            padding: 10px;
 
             .form-nomap{
                 display: flex;
-                margin: 5px;
+                margin: 6px;
+                gap: 16px;
 
                 input{
-                    margin: 2px;
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: solid 1px;
+                    padding: 0;
+                    margin-top: 12px;
+                    line-height: 32px;
+                    color: #efefef;
+                    outline: none;
+                    width: 120px;
+                    font-size: .7rem;
+                    resize: none;
+    
+                    &:active{
+                        background-color: transparent;
+                    }
+    
+    
+                    &:focus{
+                        background-color: transparent;
+                        color: white;
+                    }
+                }
+                input::placeholder{
+                    color: #edecec;
                 }
             }
 
-            input{
-                margin: 2px;
+            .form-inputs{
+                display: flex;
+                flex-direction: column;
+
+                input{
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: solid 1px;
+                    padding: 0;
+                    margin-top: 12px;
+                    line-height: 32px;
+                    color: #efefef;
+                    outline: none;
+                    width: 250px;
+                    font-size: .7rem;
+                    resize: none;
+    
+                    &:active{
+                        background-color: transparent;
+                    }
+    
+    
+                    &:focus{
+                        background-color: transparent;
+                        color: white;
+                    }
+    
+                }
+
+                
+                input::placeholder{
+                    color: #edecec;
+                }
+
+                textarea{
+                    margin-top: 20px;
+                    resize: none;
+                    background-color: transparent;
+                    outline: none;
+                    font-size: .7rem;
+                    color: #efefef;
+                    border: none;
+                    border-bottom: solid 1px;
+                }
+
+                p{
+                    padding: 5px;
+                    align-self: start;
+                    color: #efefef;
+                    font-size: .6rem;
+                    width: 240px;
+                    text-shadow: 2px 2px 8px #000000ca;
+                }
+            }
+
+            .checks-form{
+                margin-top: 10px;
+                display: flex;
+                gap: 16px;
+                
+                input{
+                    border-radius: .0em;
+                    background-color: transparent;
+                    border: solid 1px #efefef;
+                    width: 12px;
+                    height: 12px;
+                    cursor: pointer;
+
+                    &:focus{
+                        background-color: transparent;
+                        color: transparent;
+                    }
+
+                    &:checked{
+                        background-color: transparent;
+                        color: transparent;
+                    }
+                }
+
+                label{
+                    color: #efefef;
+                    font-size: .5rem;
+                    width: 200px;
+                    text-shadow: 2px 2px 8px #000000ca;
+                }
+            }
+
+            a{
+                margin-top: 20px;
+                text-decoration: none;
+                color: white;
+                border: solid 1px;
+                padding: 4px;
+                width: 117px;
+                text-align: center;
+                font-size: .8rem;
+                font-weight: 400;
+                transition: .4s ease-in-out;
+
+                &:hover{
+                    background-color: white;
+                    color: black;
+                    border: solid 1px #fff;
+                }
             }
         }
     }

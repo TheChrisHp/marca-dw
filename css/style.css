@@ -519,13 +519,18 @@ footer {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      border: solid 1px;
-      height: 600px; }
+      border-radius: 9px;
+      margin-top: 2rem;
+      margin-left: 12rem;
+      backdrop-filter: blur(17px) contrast(58%); }
       .main-bg-contacto .cont-form form .top-form {
         display: flex;
-        background-color: #202020;
+        background-color: #000000a0;
         justify-content: center;
-        width: 100%; }
+        width: 100%;
+        padding: 20px;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px; }
         .main-bg-contacto .cont-form form .top-form h1 {
           color: white;
           text-align: center;
@@ -535,11 +540,103 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column; }
+        flex-direction: column;
+        padding: 10px; }
         .main-bg-contacto .cont-form form .bot-form .form-nomap {
           display: flex;
-          margin: 5px; }
+          margin: 6px;
+          gap: 16px; }
           .main-bg-contacto .cont-form form .bot-form .form-nomap input {
-            margin: 2px; }
-        .main-bg-contacto .cont-form form .bot-form input {
-          margin: 2px; }
+            background-color: transparent;
+            border: none;
+            border-bottom: solid 1px;
+            padding: 0;
+            margin-top: 12px;
+            line-height: 32px;
+            color: #efefef;
+            outline: none;
+            width: 120px;
+            font-size: .7rem;
+            resize: none; }
+            .main-bg-contacto .cont-form form .bot-form .form-nomap input:active {
+              background-color: transparent; }
+            .main-bg-contacto .cont-form form .bot-form .form-nomap input:focus {
+              background-color: transparent;
+              color: white; }
+          .main-bg-contacto .cont-form form .bot-form .form-nomap input::placeholder {
+            color: #edecec; }
+        .main-bg-contacto .cont-form form .bot-form .form-inputs {
+          display: flex;
+          flex-direction: column; }
+          .main-bg-contacto .cont-form form .bot-form .form-inputs input {
+            background-color: transparent;
+            border: none;
+            border-bottom: solid 1px;
+            padding: 0;
+            margin-top: 12px;
+            line-height: 32px;
+            color: #efefef;
+            outline: none;
+            width: 250px;
+            font-size: .7rem;
+            resize: none; }
+            .main-bg-contacto .cont-form form .bot-form .form-inputs input:active {
+              background-color: transparent; }
+            .main-bg-contacto .cont-form form .bot-form .form-inputs input:focus {
+              background-color: transparent;
+              color: white; }
+          .main-bg-contacto .cont-form form .bot-form .form-inputs input::placeholder {
+            color: #edecec; }
+          .main-bg-contacto .cont-form form .bot-form .form-inputs textarea {
+            margin-top: 20px;
+            resize: none;
+            background-color: transparent;
+            outline: none;
+            font-size: .7rem;
+            color: #efefef;
+            border: none;
+            border-bottom: solid 1px; }
+          .main-bg-contacto .cont-form form .bot-form .form-inputs p {
+            padding: 5px;
+            align-self: start;
+            color: #efefef;
+            font-size: .6rem;
+            width: 240px;
+            text-shadow: 2px 2px 8px #000000ca; }
+        .main-bg-contacto .cont-form form .bot-form .checks-form {
+          margin-top: 10px;
+          display: flex;
+          gap: 16px; }
+          .main-bg-contacto .cont-form form .bot-form .checks-form input {
+            border-radius: .0em;
+            background-color: transparent;
+            border: solid 1px #efefef;
+            width: 12px;
+            height: 12px;
+            cursor: pointer; }
+            .main-bg-contacto .cont-form form .bot-form .checks-form input:focus {
+              background-color: transparent;
+              color: transparent; }
+            .main-bg-contacto .cont-form form .bot-form .checks-form input:checked {
+              background-color: transparent;
+              color: transparent; }
+          .main-bg-contacto .cont-form form .bot-form .checks-form label {
+            color: #efefef;
+            font-size: .5rem;
+            width: 200px;
+            text-shadow: 2px 2px 8px #000000ca; }
+        .main-bg-contacto .cont-form form .bot-form a {
+          margin-top: 20px;
+          text-decoration: none;
+          color: white;
+          border: solid 1px;
+          padding: 4px;
+          width: 117px;
+          text-align: center;
+          font-size: .8rem;
+          font-weight: 400;
+          transition: .4s ease-in-out; }
+          .main-bg-contacto .cont-form form .bot-form a:hover {
+            background-color: white;
+            color: black;
+            border: solid 1px #fff; }
