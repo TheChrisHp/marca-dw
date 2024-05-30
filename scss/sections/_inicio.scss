@@ -733,6 +733,63 @@ background-color: rgb(235, 235, 235);
 
   }
 
+  .cont-baterias{
+
+    .cont-baterias-h1{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      background-color: #000;
+      padding: 20px;
+
+      h1{
+        color: #efefef;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4rem;
+      }
+
+      p{
+        color: #efefef;
+        text-align: center;
+        width: 690px;
+        font-size: .9rem;
+      }
+
+      .baterias-recomendacion{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+
+        .col1-bat{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          width: 550px;
+
+          img{
+            align-self: center;
+            width: 10vw;
+          }
+
+          h1{
+            text-align: start;
+            font-size: 3rem;
+          }
+        }
+
+        .col2-bat{
+
+          img{
+            width: 20vw;
+            animation: move-vectorr 10s infinite;
+          }
+        }
+      }
+
+    }
+  }
 
 
 

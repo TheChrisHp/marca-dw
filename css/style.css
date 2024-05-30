@@ -659,6 +659,42 @@ footer {
         color: #000;
         background-color: #efefef; }
 
+.cont-baterias .cont-baterias-h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000;
+  padding: 20px; }
+  .cont-baterias .cont-baterias-h1 h1 {
+    color: #efefef;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem; }
+  .cont-baterias .cont-baterias-h1 p {
+    color: #efefef;
+    text-align: center;
+    width: 690px;
+    font-size: .9rem; }
+  .cont-baterias .cont-baterias-h1 .baterias-recomendacion {
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+    .cont-baterias .cont-baterias-h1 .baterias-recomendacion .col1-bat {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 550px; }
+      .cont-baterias .cont-baterias-h1 .baterias-recomendacion .col1-bat img {
+        align-self: center;
+        width: 10vw; }
+      .cont-baterias .cont-baterias-h1 .baterias-recomendacion .col1-bat h1 {
+        text-align: start;
+        font-size: 3rem; }
+    .cont-baterias .cont-baterias-h1 .baterias-recomendacion .col2-bat img {
+      width: 20vw;
+      animation: move-vectorr 10s infinite; }
+
 @media (max-width: 1033px) {
   .txt-contact-2-img img {
     width: 40vh;
