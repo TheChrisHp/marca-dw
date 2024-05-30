@@ -12,3 +12,17 @@
           box-shadow: 0 0 0 rgb(0, 0, 0);
       }
 }
+
+@mixin botonbyd($col){
+  border: solid 1px $borde-btn;
+  text-decoration: none;
+  color: $col;
+  font-size: 1rem;
+  padding: 6px;
+  transition: 0.4s ease-in-out;
+
+  &:hover{
+    color: #000;
+    background-color: white;
+  }
+}

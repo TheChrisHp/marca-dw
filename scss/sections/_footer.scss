@@ -26,11 +26,12 @@ footer{
     .two-row-footer{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        // justify-content: space-evenly;
         max-width: 850px;
         margin: auto;
         padding: 10px;
         border-bottom: solid 1px #fff;
+        gap: 2px;
 
         .cont-footer-1{
             width: 170px;
@@ -70,6 +71,7 @@ footer{
             ul{
                 list-style: none;
                 margin: 0;
+                width: 100px;
             }
 
             li{
@@ -103,4 +105,47 @@ footer{
             text-align: center;
         }
     }
+}
+
+@media (max-width: 542px){
+
+    footer .two-row-footer .cont-footer-1 p{
+        font-size: 7px;
+    }
+    footer .two-row-footer .cont-footer-2 p{
+        font-size: 7px;
+    }
+    footer .two-row-footer .cont-footer-3 p{
+        font-size: 7px;
+    }
+    footer .two-row-footer .cont-footer-4 p{
+        font-size: 7px;
+    }
+
+}
+
+@media (max-width: 500px){
+    footer .two-row-footer{
+        flex-wrap: wrap;
+    }
+
+    footer .two-row-footer .cont-footer-1{
+        width: 150px;
+    }
+    footer .two-row-footer .cont-footer-2{
+        width: 150px;
+    }
+    footer .two-row-footer .cont-footer-3{
+        width: 150px;
+    }
+    footer .two-row-footer .cont-footer-4{
+        width: 150px;
+    }
+}
+
+@media (max-width: 478px){
+    footer .two-row-footer .cont-links-pag ul{
+        flex-wrap: nowrap;
+    }
+
 }
