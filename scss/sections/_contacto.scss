@@ -7,13 +7,13 @@
 .main-bg-contacto{
     background-image: url('https://www.byd.com/content/dam/byd-site/uy/test-drive/byd-song-pc.jpg');
     background-size: cover;
-    height: 600px;
-
+    height: 920px;
 
 .cont-form{
     display: flex;
     align-items: center;
     justify-content: start;
+    height: 100%;
 
     form{
         display: flex;
@@ -22,7 +22,9 @@
         flex-direction: column;
         border-radius: 9px;
         margin-top: 2rem;
-        margin-left: 12rem;
+        margin-left: 17rem;
+        width: 420px;
+        height: auto;
         backdrop-filter:blur(17px) contrast(58%);
         
 
@@ -31,13 +33,13 @@
             background-color: #000000a0;
             justify-content: center;
             width: 100%;
-            padding: 20px;
+            padding: 32px;
             border-top-left-radius: 9px;
             border-top-right-radius: 9px;
             h1{
                 color: white;
                 text-align: center;
-                font-size: 2rem;
+                font-size: 2.8rem;
                 font-weight: bold;
             }
         }
@@ -47,7 +49,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            padding: 10px;
+            padding: 40px;
 
             .form-nomap{
                 display: flex;
@@ -60,11 +62,11 @@
                     border-bottom: solid 1px;
                     padding: 0;
                     margin-top: 12px;
-                    line-height: 32px;
+                    line-height: 50px;
                     color: #efefef;
                     outline: none;
-                    width: 120px;
-                    font-size: .7rem;
+                    width: 180px;
+                    font-size: 1.1rem;
                     resize: none;
     
                     &:active{
@@ -85,6 +87,7 @@
             .form-inputs{
                 display: flex;
                 flex-direction: column;
+                gap: 10px;
 
                 input{
                     background-color: transparent;
@@ -92,11 +95,11 @@
                     border-bottom: solid 1px;
                     padding: 0;
                     margin-top: 12px;
-                    line-height: 32px;
+                    line-height: 50px;
                     color: #efefef;
                     outline: none;
-                    width: 250px;
-                    font-size: .7rem;
+                    width: 376px;
+                    font-size: 1.1rem;
                     resize: none;
     
                     &:active{
@@ -121,18 +124,18 @@
                     resize: none;
                     background-color: transparent;
                     outline: none;
-                    font-size: .7rem;
+                    font-size: 1.1rem;
                     color: #efefef;
                     border: none;
                     border-bottom: solid 1px;
                 }
 
                 p{
-                    padding: 5px;
+                    padding: 4px;
                     align-self: start;
                     color: #efefef;
-                    font-size: .6rem;
-                    width: 240px;
+                    font-size: .9rem;
+                    width: 350px;
                     text-shadow: 2px 2px 8px #000000ca;
                 }
             }
@@ -146,8 +149,8 @@
                     border-radius: .0em;
                     background-color: transparent;
                     border: solid 1px #efefef;
-                    width: 12px;
-                    height: 12px;
+                    width: 20px;
+                    height: 20px;
                     cursor: pointer;
 
                     &:focus{
@@ -163,8 +166,8 @@
 
                 label{
                     color: #efefef;
-                    font-size: .5rem;
-                    width: 200px;
+                    font-size: .7rem;
+                    width: 280px;
                     text-shadow: 2px 2px 8px #000000ca;
                 }
             }
@@ -175,9 +178,9 @@
                 color: white;
                 border: solid 1px;
                 padding: 4px;
-                width: 117px;
+                width: 180px;
                 text-align: center;
-                font-size: .8rem;
+                font-size: 1.2rem;
                 font-weight: 400;
                 transition: .4s ease-in-out;
 
