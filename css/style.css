@@ -147,6 +147,13 @@ footer {
       width: 100px;
       height: auto; }
 
+.container__menu a {
+  color: white; }
+  .container__menu a:hover {
+    color: #dcdcdc; }
+  .container__menu a:focus {
+    color: #dcdcdc; }
+
 .link-1 {
   grid-area: link-1; }
 
@@ -1041,7 +1048,7 @@ footer {
   background-color: #202020; }
 
 .main-bg-contacto {
-  background-image: url("https://www.byd.com/content/dam/byd-site/uy/test-drive/byd-song-pc.jpg");
+  background-image: url("https://res.cloudinary.com/dfnton7oq/image/upload/v1717213277/byd%20proyect%20dw/byd_song_ahgjoh.jpg");
   background-size: cover;
   height: 920px; }
   .main-bg-contacto .cont-form {

@@ -51,6 +51,19 @@
         }
       }
   }
+
+  .container__menu a{
+    color: white;
+
+    &:hover{
+      color: #dcdcdc;
+    }
+
+    &:focus{
+      color: #dcdcdc;
+    }
+
+  }
   
   .link-1 { grid-area: link-1; }
   
