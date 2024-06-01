@@ -1,2 +1,2 @@
 # Page for BYD (UY)
-### Created by TheChrisHp with JS, SCSS & Bootstrap
+### Created by TheChrisHp with JS, HTML, SCSS & Bootstrap
