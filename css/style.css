@@ -948,27 +948,29 @@ footer {
     font-weight: 350;
     text-align: center;
     margin: 0;
-    width: 350px; }
+    width: 340px; }
   .cont-ultmodels2 .row-models-s2-2 p {
     font-size: 1rem;
     font-weight: 350;
     text-align: center;
     margin: 0;
-    width: 350px; }
+    width: 340px; }
   .cont-cammodels .cont-cam-1 .cont-p-cam1 {
     width: auto;
     margin: 0; }
     .cont-cammodels .cont-cam-1 .cont-p-cam1 p {
       text-align: center;
       font-size: 1rem;
-      font-weight: 350; }
+      font-weight: 350;
+      width: 340px; }
   .cont-cammodels2 .cont-cam-2 .cont-p-cam2 {
     width: auto;
     margin: 0; }
     .cont-cammodels2 .cont-cam-2 .cont-p-cam2 p {
       text-align: center;
       font-size: 1rem;
-      font-weight: 350; }
+      font-weight: 350;
+      width: 340px; }
   .cont-contactanos .cont-contact .txt-contact h1 {
     font-size: 2rem;
     text-align: center;
@@ -1006,7 +1008,8 @@ footer {
     .cont-inf-utilitarios .cont-p-utilitarios p {
       text-align: center;
       font-size: 1rem;
-      font-weight: 350; }
+      font-weight: 350;
+      width: 340px; }
   .cont-baterias .cont-baterias-h1 h1 {
     font-size: 2rem; }
   .cont-baterias .cont-baterias-h1 .baterias-recomendacion .col1-bat h1 {
@@ -1041,7 +1044,6 @@ footer {
       justify-content: center;
       flex-direction: column;
       border-radius: 9px;
-      margin-top: 2rem;
       margin-left: 17rem;
       width: 420px;
       height: auto;
@@ -1164,3 +1166,25 @@ footer {
             background-color: white;
             color: black;
             border: solid 1px #fff; }
+
+@media (max-width: 1200px) {
+  .main-bg-contacto .cont-form {
+    justify-content: center;
+    margin: auto; }
+  .main-bg-contacto .cont-form form {
+    margin: auto;
+    width: 400px; } }
+
+@media (max-width: 475px) {
+  .main-bg-contacto .cont-form form .bot-form {
+    padding: 10px; }
+  .main-bg-contacto .cont-form form .bot-form .form-nomap input {
+    width: 150px; }
+  .main-bg-contacto .cont-form form {
+    width: 362px; }
+  .main-bg-contacto .cont-form form .bot-form .form-inputs {
+    align-items: center; }
+    .main-bg-contacto .cont-form form .bot-form .form-inputs input {
+      width: 333px; }
+    .main-bg-contacto .cont-form form .bot-form .form-inputs textarea {
+      width: 333px; } }
