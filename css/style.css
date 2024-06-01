@@ -939,6 +939,36 @@ footer {
   .txt-contact p {
     font-size: 0.6rem;
     text-align: center; }
+  .cont-contactanos .cont-h1-contact h1 {
+    font-size: 2.5rem; }
+  .cont-productos div h1 {
+    font-size: 2rem; }
+  .cont-ultmodels .row-models2 p {
+    font-size: 1rem;
+    font-weight: 350;
+    text-align: center;
+    margin: 0;
+    width: 350px; }
+  .cont-ultmodels2 .row-models-s2-2 p {
+    font-size: 1rem;
+    font-weight: 350;
+    text-align: center;
+    margin: 0;
+    width: 350px; }
+  .cont-cammodels .cont-cam-1 .cont-p-cam1 {
+    width: auto;
+    margin: 0; }
+    .cont-cammodels .cont-cam-1 .cont-p-cam1 p {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 350; }
+  .cont-cammodels2 .cont-cam-2 .cont-p-cam2 {
+    width: auto;
+    margin: 0; }
+    .cont-cammodels2 .cont-cam-2 .cont-p-cam2 p {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 350; }
   .cont-contactanos .cont-contact .txt-contact h1 {
     font-size: 2rem;
     text-align: center;
@@ -958,12 +988,6 @@ footer {
     font-size: 1.8rem; }
   .cont-contactarnosv2 .cont-contact .txt-contact p {
     font-size: .8rem; }
-  .cont-cammodels2 .cont-cam-2 .cont-p-cam2 {
-    width: auto;
-    margin: 0; }
-  .cont-cammodels .cont-cam-1 .cont-p-cam1 {
-    width: auto;
-    margin: 0; }
   .cont-ultmodels .row-models h1 {
     font-size: 2rem; }
   .cont-ultmodels2 .row-models-s2 h1 {
@@ -977,11 +1001,21 @@ footer {
   .cont-utilitarios .cont-utilitarios-h1 h1 {
     font-size: 2rem; }
   .cont-inf-utilitarios .cont-p-utilitarios {
-    width: auto; }
+    width: auto;
+    margin: 0; }
+    .cont-inf-utilitarios .cont-p-utilitarios p {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 350; }
   .cont-baterias .cont-baterias-h1 h1 {
     font-size: 2rem; }
   .cont-baterias .cont-baterias-h1 .baterias-recomendacion .col1-bat h1 {
     font-size: 2rem; }
+  .cont-baterias .cont-baterias-h1 .baterias-recomendacion {
+    gap: 0; }
+  .cont-baterias .cont-baterias-h1 p {
+    font-size: .8rem;
+    font-weight: 350; }
   .cont-contactarnosv2 .cont-contact .txt-contact a {
     font-size: 1rem; } }
 
