@@ -13,39 +13,54 @@
 </head>
 <body class="bg-contacto">
 
+<!-- NAV -->
 <div class="container__menu">
-        <div class="logo">
-            <a href="../index.html">
+    <div class="logo">
+        <a href="../index.html">
+        <img src="https://byd.com.uy/wp-content/uploads/2023/11/bydlogo.svg" alt="">
+    </a>
+    </div>
+    
+<ul class="link-1">
+
+<li><a href="../index.html" id="selected">Inicio</a></li>
+<div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Vehiculos
+    </a>
+    
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Vehiculos</a></li>
+        <li><a class="dropdown-item" href="#">Camiones</a></li>
+        <li><a class="dropdown-item" href="#">Utilitarios</a></li>
+        <li><a class="dropdown-item" href="#">Baterias</a></li>
+    </ul>
+    </div>
+
+</ul>
+    <ul class="link-2">
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="./pages/contacto.html">Contacto</a></li>
+    </ul>
+    <div class="menu">
+        <button class="hamburguesa" id="btn_menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+        <div id="back_menu"></div>
+        <nav id="navv">
             <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/BYD_Auto_2022_logo.svg" alt="">
-        </a>
-        </div>
-        <ul class="link-1">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-        </ul>
-        <ul class="link-2">
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-        <div class="menu">
-            <button class="hamburguesa" id="btn_menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </button>
-            <div id="back_menu"></div>
-            <nav id="navv">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/BYD_Auto_2022_logo.svg" alt="">
-                <ul class="link-1-menu">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
-                </ul>
-                <ul class="link-2-menu">
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="./contacto.html" id="selected">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+            <ul class="link-1-menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#" id="selected">Vehiculos</a></li>
+            </ul>
+            <ul class="link-2-menu">
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
 </div>
 
 

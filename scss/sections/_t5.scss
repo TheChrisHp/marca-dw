@@ -1,0 +1,268 @@
+.bg-t5{
+    background-color: $bg-byd;
+}
+
+//main
+.img-t5{
+    height: 80vh;
+    overflow: hidden;
+
+    img{
+        filter: brightness(60%);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .t5-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        text-shadow: 2px 2px 14px #000;
+        color: #e7e7e7;
+
+        h1{
+            z-index: 9999;
+            font-size: 5.6rem;
+            font-weight: bold;
+        }
+        p{
+            font-size: .9rem;
+        }
+
+        a{
+            text-shadow: none;
+            padding: 20px;
+            font-size: 1.4rem;
+            font-weight: 560;
+            border: solid 1.5px !important;
+            @include botonbyd(#e7e7e7);
+        }
+    }
+}
+
+//section 1
+.cont-t5-specs{
+    background: linear-gradient(#0000004f, #000) ,url(https://res.cloudinary.com/dfnton7oq/image/upload/v1717355114/byd%20proyect%20dw/t5-cabine_j5flky.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .cont-specst5-row{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        z-index: 1;
+        height: 100%;
+
+        .cont-speed-t5{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-right: solid 2px #ffffff;
+            padding: 0 5.0521vw;
+            margin-bottom: 20px;
+        }
+
+        .cont-motor-t5{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 5.0521vw;
+            border-right: solid 2px #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .cont-kmw-t5{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 5.0521vw;
+            border-right: solid 2px #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .cont-energy-t5{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 5.0521vw;
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-size: 1.2rem;
+            color: white;
+
+            strong{
+                font-size: 4rem;
+                text-shadow: 2px 2px 6px #000;
+            }
+        }
+    }
+}
+
+//section 2
+.cont-t5info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // flex-wrap: wrap;
+    gap: 17px;
+    padding: 2rem;
+
+    .txt-infot5{
+        color: white;
+        width: 800px;
+
+        h1{
+            font-weight: 560;
+        }
+
+        p{
+            font-size: 1.4rem;
+        }
+
+    }
+
+    img{
+        width: 50vw;
+        height: auto;
+    }
+
+}
+
+
+//section 3
+.cont-t5img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+    .cont-text-t5img{
+        position: absolute;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 4rem;
+        text-shadow: 2px 2px 6px #000;
+
+        h1{
+            color: white;
+            font-weight: 560;
+            font-size: 4rem;
+        }
+
+        p{
+            color: white;
+            font-weight: 560;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media (max-width: 1300px){
+
+    .cont-t5-specs .cont-specst5-row p{
+
+        strong{
+            font-size: 3.5rem;
+        }
+    }    
+
+    .cont-t5img .cont-text-t5img h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+}
+@media (max-width: 1147px){
+
+    .cont-t5-specs .cont-specst5-row p{
+
+        strong{
+            font-size: 3rem;
+        }
+    }    
+
+    .cont-t5img .cont-text-t5img h1{
+        font-size: 2.9rem;
+        text-align: center;
+    }
+
+    .cont-t5img .cont-text-t5img p{
+        text-align: center;
+    }
+}
+@media (max-width: 1000px){
+
+    .cont-t5-specs .cont-specst5-row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont-t5-specs .cont-specst5-row .cont-speed-t5{
+        border: none;
+    }
+
+    .cont-t5-specs .cont-specst5-row .cont-motor-t5{
+        border: none;
+    }
+
+    .cont-t5info{
+        flex-wrap: wrap;
+    }
+
+    .cont-t5info .txt-infot5{
+        width: 720px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .cont-t5img .cont-text-t5img h1{
+        font-size: 2.9rem;
+        text-align: center;
+    }
+
+    .cont-t5img img{
+        filter: brightness(60%);
+    }
+}
+
+@media (max-width: 585px){
+
+    .img-t5 .t5-text p{
+        text-align: center;
+    }
+    .cont-t5img .cont-text-t5img h1{
+        font-size: 2rem;
+    }
+    .cont-t5img .cont-text-t5img p{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 443px){
+
+    .cont-t5img .cont-text-t5img h1{
+        font-size: 1.2rem;
+    }
+    .cont-t5img .cont-text-t5img p{
+        font-size: 1rem;
+    }
+}

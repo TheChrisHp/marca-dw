@@ -1,0 +1,244 @@
+.bg-t3{
+    background-color: $bg-byd;
+}
+
+//main
+.cont-imgt3{
+    height: 80vh;
+    overflow: hidden;
+
+    img{
+        filter: brightness(64%);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .t3-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        text-shadow: 2px 2px 14px #000;
+        color: #e7e7e7;
+
+        h1{
+            z-index: 9999;
+            font-size: 5.6rem;
+            font-weight: bold;
+        }
+        p{
+            font-size: .9rem;
+        }
+
+        a{
+            text-shadow: none;
+            padding: 20px;
+            font-size: 1.4rem;
+            font-weight: 560;
+            border: solid 1.5px !important;
+            @include botonbyd(#e7e7e7);
+        }
+    }
+}
+
+
+// section 1
+.cont-t3-specs{
+    background: linear-gradient(#00000030, #00000091) ,url('https://res.cloudinary.com/dfnton7oq/image/upload/v1717367508/byd%20proyect%20dw/cabina_jvzkmb.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .cont-specst3-row{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        z-index: 1;
+        height: 100%;
+
+        .cont-speed-t3{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-right: solid 2px #ffffff;
+            padding: 0 5.0521vw;
+            margin-bottom: 20px;
+        }
+
+        .cont-motor-t3{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 5.0521vw;
+            border-right: solid 2px #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .cont-kmw-t3{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 5.0521vw;
+            border-right: solid 2px #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .cont-energy-t3{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 5.0521vw;
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-size: 1.2rem;
+            color: white;
+
+            strong{
+                font-size: 4rem;
+                text-shadow: 2px 2px 6px #000;
+            }
+        }
+    }
+}
+
+// section 2
+.cont-infot3{
+    @include flex();
+    gap: 4rem;
+    padding: 4rem;
+
+    .text-infot3{
+        color: white;
+
+        h1{
+            font-weight: 560;
+        }
+
+        p{
+            font-size: 1.4rem;
+        }
+    }
+
+    img{
+        width: 50vw;
+        height: auto;
+    }
+}
+
+//section 3
+.cont-slogant3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    img{
+        filter: brightness(80%);
+        width: 100%;
+        height: auto;
+    }
+
+    .text-slogant3{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: 100%;
+        padding: 4rem;
+        color: white;
+        text-shadow: 2px 2px 6px #000;
+
+        h1{
+            font-weight: 560;
+            font-size: 4.5rem
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    .cont-t3-specs .cont-specst3-row p{
+        strong{
+            font-size: 3rem;
+        }
+    }
+}
+@media (max-width: 1000px){
+
+    .cont-imgt3 .t3-text h1{
+        text-align: center;
+    }
+
+    .cont-imgt3 .t3-text p{
+        text-align: center;
+    }
+
+    .cont-t3-specs .cont-specst3-row p{
+        strong{
+            font-size: 3.6rem;
+        }
+    }
+
+    .cont-t3-specs .cont-specst3-row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont-t3-specs .cont-specst3-row .cont-speed-t3{
+        border: none;
+    }
+
+    .cont-t3-specs .cont-specst3-row .cont-motor-t3{
+        border: none;
+    }
+
+    .cont-infot3{
+        flex-wrap: wrap;
+    }
+
+    .cont-infot3 .text-infot3 h1{
+        text-align: center;
+    }
+
+    .cont-infot3 .text-infot3 p{
+        text-align: center;
+    }
+
+    .cont-slogant3 .text-slogant3 h1{
+        text-align: center;
+    }
+
+    .cont-slogant3 .text-slogant3 p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px){
+    .cont-slogant3 .text-slogant3 h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 608px){
+    .cont-infot3 .text-infot3 p{
+        font-size: 1rem;
+    }
+    .cont-slogant3 .text-slogant3{
+        justify-content: center;
+    }
+    .cont-slogant3 .text-slogant3 h1{
+        font-size: 2.5rem;
+    }
+    .cont-slogant3 .text-slogant3 p{
+        display: none;
+    }
+}

@@ -1,6 +1,6 @@
 // BACKGROUND
 .bg-inicio{
-  background: #202020;
+  background: $bg-byd;
 }
 
 // NAV
@@ -12,7 +12,7 @@
   grid-auto-flow: row;
   grid-template-areas:
     "link-1 logo link-2";
-  border-bottom: 6px solid #000;
+  border-bottom: 4px solid #dbdbdb;
   max-width: 850px;
   margin: auto;
   padding: 6px;
@@ -677,7 +677,7 @@ background-color: rgb(235, 235, 235);
 }
 
 .cont-cammodels2{
-  background-color: #F7F7F7;
+  background-color: #EAEBEC;
 
   .cont-h1-camiones2{
     display: flex;
@@ -691,7 +691,7 @@ background-color: rgb(235, 235, 235);
       padding: 10px;
 
       h1{
-        color: #212529;
+        color: #202020;
         font-size: 5.6rem;
         font-weight: bold;
       }
@@ -711,7 +711,7 @@ background-color: rgb(235, 235, 235);
     .cont-p-cam2{
       width: 602px;
       p{
-        
+        color: #202020;
         font-size: 1.3rem;
       }
 
@@ -1168,7 +1168,7 @@ background-color: rgb(235, 235, 235);
     align-self: center;
     margin-right: 20px;
     margin-top: 2px;
-
+    z-index: 99999999;
     
   }
 
