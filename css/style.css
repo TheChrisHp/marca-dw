@@ -179,6 +179,60 @@ footer {
 .dropdown-item:focus, .dropdown-item:hover {
   background-color: transparent !important; }
 
+.dropdown .submenu-vehiculos {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  width: 160px;
+  border: solid 1px #202020;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.357);
+  background-color: #202020;
+  padding: 5px;
+  list-style: none; }
+  .dropdown .submenu-vehiculos li {
+    margin: 10px; }
+
+.dropdown li:hover .submenu-vehiculos {
+  display: block;
+  text-decoration: underline #fff; }
+
+.dropdown .submenu-camiones {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 100%;
+  width: 160px;
+  border: solid 1px #202020;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.357);
+  background-color: #202020;
+  padding: 5px;
+  list-style: none; }
+  .dropdown .submenu-camiones li {
+    margin: 10px; }
+
+.dropdown li:hover .submenu-camiones {
+  display: block;
+  text-decoration: underline #fff; }
+
+.dropdown .submenu-utilitarios {
+  display: none;
+  position: absolute;
+  top: 52%;
+  left: 100%;
+  width: 160px;
+  border: solid 1px #202020;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.357);
+  background-color: #202020;
+  padding: 5px;
+  list-style: none; }
+  .dropdown .submenu-utilitarios li {
+    margin: 10px; }
+
+.dropdown li:hover .submenu-utilitarios {
+  display: block;
+  text-decoration: underline #fff; }
+
 .dropdown .btn:first-child:hover {
   background-color: transparent; }
 
@@ -695,7 +749,8 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap; }
     .cont-inf-utilitarios .cont-info-utilitarios img {
-      width: 50vw; }
+      width: 50vw;
+      animation: move-vector 5s linear infinite; }
   .cont-inf-utilitarios .cont-p-utilitarios {
     width: 602px; }
     .cont-inf-utilitarios .cont-p-utilitarios p {
