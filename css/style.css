@@ -277,6 +277,19 @@ footer {
 .menu #btn_menu {
   display: none; }
 
+.submenu-h-vehiculos {
+  display: none !important;
+  background-color: #B6B5B2;
+  border-radius: 10px;
+  padding: 1rem !important; }
+  .submenu-h-vehiculos li {
+    margin: 5px !important; }
+    .submenu-h-vehiculos li a {
+      color: white !important; }
+
+li:hover .submenu-h-vehiculos {
+  display: block !important; }
+
 .carousel-item {
   position: relative;
   width: 100%;

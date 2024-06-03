@@ -224,6 +224,31 @@
   display: none;
 }
 
+//submenu hamburugesa
+
+.submenu-h-vehiculos{
+  display: none !important;
+  background-color: #B6B5B2;
+  border-radius: 10px;
+  padding: 1rem !important;
+  
+  li{
+    margin: 5px !important;
+
+    a{
+      color: white !important;
+    }
+  }
+
+}
+
+li:hover .submenu-h-vehiculos {
+  display: block !important;
+}
+
+
+
+
 //MAIN banner img
 .carousel-item{
   position: relative;
