@@ -14,10 +14,10 @@
 <body class="bg-eth8">
 
 <!-- NAV -->
-<div class="container__menu">
-    <div class="logo">
-        <a href="./index.html">
-        <img src="https://byd.com.uy/wp-content/uploads/2023/11/bydlogo.svg" alt="">
+<div class="container__menu" id="navdesktop">
+    <div class="logo" id="logo-nav">
+        <a href="../index.html">
+        <img src="https://byd.com.uy/wp-content/uploads/2023/11/bydlogo.svg" alt="logo-nav">
     </a>
     </div>
     
@@ -47,7 +47,7 @@
             <li><a href="./t3.html">BYD | T3</a></li>
         </ul>
       </li>
-      <li><a class="dropdown-item" href="../index.html#baterias">Baterias</a></li>
+      <li><a class="dropdown-item" href="#baterias">Baterias</a></li>
     </ul>
   </div>
 
@@ -58,36 +58,28 @@
     </ul>
     <div class="menu">
         <button class="hamburguesa" id="btn_menu">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div id="stick1"></div>
+            <div id="stick2"></div>
+            <div id="stick3"></div>
         </button>
-        <div id="back_menu"></div>
+        <!-- <div id="back_menu"></div> -->
         <nav id="navv">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/BYD_Auto_2022_logo.svg" alt="">
+            <img src="../assets/BYD_Auto_2022_logo.svg" alt="img-logo-byd-h">
             <ul class="link-1-menu">
-                <li><a href="../index.html" id="selected">Inicio</a></li>
-                <li><a href="#">Vehiculos</a>
-                <ul class="submenu-h-vehiculos">
-                    <p>Vehiculos</p>
-                    <hr>
-                    <li><a href="./atto3.html">BYD | Atto3</a></li>
-                    <li><a href="./tang.html">BYD | Tang</a></li>
-                    <br>
-                    <p>Camiones</p>
-                    <hr>
-                    <li><a href="./t5.html">BYD | T5</a></li>
-                    <li><a href="./eth8.html">BYD | ETH8</a></li>
-                    <br>
-                    <p>Utilitarios</p>
-                    <hr>
-                    <li><a href="./t3.html">BYD | T3</a></li>
-                    <br>
-                    <p>Baterias</p>
-                    <hr>
-                    <li><a class="dropdown-item" href="../index.html#baterias">Baterias</a></li>
-                </ul>
-                </li>
+                <li><a href="./index.html" id="selected">Inicio</a></li>
+                <li><a href="../index.html#nuestros-productos" id="producto">Productos</a></li>
+                    <!-- <ul class="submenu-h-vehiculos">
+                        <p>Vehiculos</p>
+                        <li><a href="./pages/atto3.html">BYD | Atto3</a></li>
+                        <li><a href="./pages/tang.html">BYD | Tang</a></li>
+                        <p>Camiones</p>
+                        <li><a href="./pages/t5.html">BYD | T5</a></li>
+                        <li><a href="./pages/eth8.html">BYD | ETH8</a></li>
+                        <p>Utilitarios</p>
+                        <li><a href="./pages/t3.html">BYD | T3</a></li>
+                        <p>Baterias</p>
+                        <li><a href="/index.html#baterias">Baterias</a></li>
+                    </ul> -->
             </ul>
             <ul class="link-2-menu">
                 <li><a href="#">Nosotros</a></li>
@@ -96,6 +88,7 @@
         </nav>
     </div>
 </div>
+
 
 <!-- main -->
 <main class="img-eth8">

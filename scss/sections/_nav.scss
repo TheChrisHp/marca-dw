@@ -1,0 +1,347 @@
+// NAV
+.container__menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "link-1 logo link-2";
+    border-bottom: 4px solid #dbdbdb;
+    max-width: 850px;
+    margin: auto;
+    padding: 6px;
+    margin-bottom: 10px;
+  
+      .link-1, .link-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+  
+      a{
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 10px;
+  
+        &:hover{
+          color: #dcdcdc;
+        }
+      }
+  
+          .logo{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          img{
+            width: 100px;
+            height: auto;
+          }
+        }
+    }
+  
+    .container__menu .link-1, .link-2{
+      color: white;
+  
+      &:hover{
+        color: #dcdcdc;
+      }
+  
+      &:focus{
+        color: #dcdcdc;
+      }
+  
+    }
+    
+    .link-1 { grid-area: link-1; }
+    
+    .link-2 { grid-area: link-2; }
+    
+    .logo { grid-area: logo; }
+  
+    .menu { grid-area: menuu; }
+  
+    //dropdown
+    .dropdown .dropdown-menu{
+      background-color: #202020;
+      padding: 0;
+    }
+  
+    .dropdown .dropdown-menu, .dropdown-item{
+      border-radius: 0;
+      transform: translate(-10px, 2px);
+      a{
+        font-size: .8rem;
+        
+      }
+    }
+  
+    .dropdown-item:focus, .dropdown-item:hover{
+      background-color: transparent !important;
+    }
+  
+    .dropdown{
+  
+      .submenu-vehiculos{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 100%;
+        width: 160px;
+        border: solid 1px #202020;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.357);;
+        background-color: $bg-byd;
+        padding: 5px;
+        list-style: none;
+  
+        li{
+          margin: 10px;
+        }
+      }
+  
+      li:hover .submenu-vehiculos {
+        display: block;
+        text-decoration: underline #fff;
+      }
+  
+      .submenu-camiones{
+        display: none;
+        position: absolute;
+        top: 30%;
+        left: 100%;
+        width: 160px;
+        border: solid 1px #202020;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.357);;
+        background-color: $bg-byd;
+        padding: 5px;
+        list-style: none;
+  
+        li{
+          margin: 10px;
+        }
+      }
+  
+      li:hover .submenu-camiones {
+        display: block;
+        text-decoration: underline #fff;
+      }
+      .submenu-utilitarios{
+        display: none;
+        position: absolute;
+        top: 52%;
+        left: 100%;
+        width: 160px;
+        border: solid 1px #202020;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.357);;
+        background-color: $bg-byd;
+        padding: 5px;
+        list-style: none;
+  
+        li{
+          margin: 10px;
+        }
+      }
+  
+      li:hover .submenu-utilitarios {
+        display: block;
+        text-decoration: underline #fff;
+      }
+  
+      .btn:first-child:hover{
+        background-color: transparent;
+      }
+  
+      .btn-secondary{
+        background-color: transparent !important;
+        border: none;
+        padding: 0;
+        
+        &:active{
+          background-color: transparent;
+        }
+        &:hover{
+          background-color: transparent;
+        }
+      }
+    }
+  
+  
+  
+  .menu{
+    display: none;
+  }
+  
+  .menu{
+  
+    a{
+      &:hover{
+        color: #cc0000;
+      } 
+  
+      &:focus{
+        color: #cc0000;
+      }
+      &:active{
+        color: #cc0000;
+      }
+  }
+  }
+  
+  .menu ul{
+    display: flex;
+  }
+  
+  .menu ul li{
+    list-style: none;
+    margin-left: 36px;
+  }
+  
+  .menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .menu #btn_menu{
+    display: none;
+  }
+  
+  //submenu hamburugesa
+  
+  .submenu-h-vehiculos{
+    display: none !important;
+    background-color: #454545;
+    // border-radius: 10px;
+    padding: 1rem !important;
+    width: 198px;
+    height: 374px;
+  
+    p{
+      margin: 0;
+      width: 92px;
+      border-bottom: solid 1px;
+    }
+    
+    li{
+      text-align: start;
+      margin: 5px !important;
+      padding: 5px;
+      border: none !important;
+  
+      a{
+        margin: 0;
+        color: white !important;
+      }
+    }
+  
+  }
+  
+  li:hover .submenu-h-vehiculos {
+    display: block !important;
+  }
+
+
+//medias queries nav
+@media screen and (max-width: 720px){
+
+    .menu nav{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: -49rem;
+      background: #22222239;
+      backdrop-filter:blur(32px) contrast(106%);
+      width: 100%;
+      height: 100vh;
+      padding: 40px;
+      z-index: 1;
+      transition: all 300ms;
+    }
+  
+    .link-1, .link-2{
+      display: none !important;
+    }
+  
+    .container__menu{
+      grid-template-areas:
+      "link-1 logo menuu";
+    }
+  
+    .menu{
+      display: block;
+      justify-self: end;
+      align-self: center;
+      margin-right: 20px;
+      margin-top: 2px;
+      z-index: 99999999;
+  
+      img{
+        margin-top: 4rem;
+        width: 240px;
+        margin-bottom: 42px;
+        filter: drop-shadow(1px 1px 10px #d70c19d4);
+        // border-bottom: solid 1px #dbdbdb;
+      }
+      
+    }
+  
+    .menu ul{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+  
+    .menu ul li{
+        margin-top: 10px;
+        margin-left: 0;
+        border: solid 1px #0000006b;
+        padding: 5px;
+        width: 260px;
+    }
+  
+    .menu ul li a{
+        color: #e0e0e0;
+        font-size: 1.6rem;
+    }
+  
+    #selected{
+        background: none;
+        padding: 0px;
+        border-radius: none;
+        color: #fa0000;
+    }
+  
+    .menu .hamburguesa{
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 2.5rem;
+      height: 2.5rem;
+      border: 0;
+      border-radius: 10px;
+      background: transparent;
+      gap: .65rem;
+      cursor: pointer;
+  
+      div{
+        background-color: #ffffff;
+        height: 2px;
+        width: 100%;
+        border-radius: 5px;
+        transition: all .5s;
+        transform-origin: left;
+      }
+    }
+  }
