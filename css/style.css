@@ -2192,3 +2192,83 @@ footer {
     font-size: 2.5rem; }
   .cont-slogant3 .text-slogant3 p {
     display: none; } }
+
+.bg-nosotros {
+  background-color: #202020; }
+
+.cont-intro-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .cont-intro-nosotros img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    filter: brightness(60%); }
+  .cont-intro-nosotros .cont-texto-intro-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    padding: 4rem; }
+    .cont-intro-nosotros .cont-texto-intro-nosotros h1 {
+      font-size: 4rem;
+      font-weight: 560;
+      color: #f6f6f6;
+      text-align: center; }
+    .cont-intro-nosotros .cont-texto-intro-nosotros p {
+      font-size: 1.2rem;
+      color: #dbdbdb;
+      width: 1220px;
+      text-align: center; }
+
+.cont-info-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem; }
+  .cont-info-nosotros .textinfo-nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 900px; }
+    .cont-info-nosotros .textinfo-nosotros h1 {
+      color: #dbdbdb;
+      font-weight: 560; }
+    .cont-info-nosotros .textinfo-nosotros p {
+      font-size: 1.2rem;
+      color: #dbdbdb; }
+  .cont-info-nosotros img {
+    width: 40vw;
+    height: auto; }
+
+.cont-img-banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  overflow: hidden; }
+  .cont-img-banner img {
+    width: 100%;
+    height: auto; }
+  .cont-img-banner .text-banner-nosotros {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 100%; }
+    .cont-img-banner .text-banner-nosotros h1 {
+      padding: 2rem;
+      font-size: 4rem;
+      font-weight: 560;
+      color: #dbdbdb; }
+    .cont-img-banner .text-banner-nosotros p {
+      font-size: 1.2rem;
+      color: #dbdbdb;
+      width: 820px;
+      text-align: center; }
